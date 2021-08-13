@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.jd.blockchain</groupId>
         <artifactId>jdchain-samples</artifactId>
-        <version>1.4.3.RELEASE</version>
+        <version>1.5.0.RELEASE</version>
     </parent>
     <artifactId>sdk-samples</artifactId>
 
@@ -51,17 +51,17 @@
         <dependency>
             <groupId>com.jd.blockchain</groupId>
             <artifactId>tools-initializer</artifactId>
-            <version>${framework.version}</version>
+            <version>${core.version}</version>
         </dependency>
         <dependency>
             <groupId>com.jd.blockchain</groupId>
             <artifactId>peer</artifactId>
-            <version>${framework.version}</version>
+            <version>${core.version}</version>
         </dependency>
         <dependency>
             <groupId>com.jd.blockchain</groupId>
             <artifactId>gateway</artifactId>
-            <version>${framework.version}</version>
+            <version>${core.version}</version>
         </dependency>
 
         <!--Junit-->
