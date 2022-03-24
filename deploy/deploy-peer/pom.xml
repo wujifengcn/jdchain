@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.jd.blockchain</groupId>
 		<artifactId>deploy-root</artifactId>
-		<version>1.5.0.RELEASE</version>
+		<version>1.6.3.RELEASE</version>
 	</parent>
 	<artifactId>deploy-peer</artifactId>
 
@@ -23,11 +23,6 @@
 		<dependency>
 			<groupId>com.jd.blockchain</groupId>
 			<artifactId>runtime-modular-booter</artifactId>
-			<version>${core.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.jd.blockchain</groupId>
-			<artifactId>manager-booter</artifactId>
 			<version>${core.version}</version>
 		</dependency>
 		<dependency>
@@ -55,24 +50,6 @@
 		<dependency>
 			<groupId>com.jd.blockchain</groupId>
 			<artifactId>tools-keygen-booter</artifactId>
-			<version>${core.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.jd.blockchain</groupId>
-			<artifactId>tools-regparti-booter</artifactId>
-			<version>${core.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.jd.blockchain</groupId>
-			<artifactId>tools-activeparti-booter</artifactId>
-			<version>${core.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.jd.blockchain</groupId>
-			<artifactId>tools-deactiveparti-booter</artifactId>
 			<version>${core.version}</version>
 		</dependency>
 

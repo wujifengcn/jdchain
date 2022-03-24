@@ -5,22 +5,21 @@
 	<parent>
 		<groupId>com.jd.blockchain</groupId>
 		<artifactId>jdchain-parent</artifactId>
-		<version>1.1.5.RELEASE</version>
+		<version>1.1.8.RELEASE</version>
 		<relativePath>../project/parent</relativePath>
 	</parent>
 	<artifactId>deploy-root</artifactId>
-	<version>1.5.0.RELEASE</version>
+	<version>1.6.3.RELEASE</version>
 	<packaging>pom</packaging>
 
 	<properties>
-		<core.version>1.5.0.RELEASE</core.version>
+		<core.version>1.6.3.RELEASE</core.version>
 	</properties>
 
 	<modules>
 		<module>../core</module>
 		<module>deploy-gateway</module>
 		<module>deploy-peer</module>
-        <module>docker</module>
     </modules>
 
 </project>

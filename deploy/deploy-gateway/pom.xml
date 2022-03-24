@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.jd.blockchain</groupId>
 		<artifactId>deploy-root</artifactId>
-		<version>1.5.0.RELEASE</version>
+		<version>1.6.3.RELEASE</version>
 	</parent>
 	<artifactId>deploy-gateway</artifactId>
 
@@ -45,6 +45,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<includeSystemScope>true</includeSystemScope>
+				</configuration>
 				<!-- <executions> <execution> <goals> <goal>repackage</goal> </goals>
 					</execution> </executions> -->
 			</plugin>

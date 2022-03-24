@@ -20,9 +20,17 @@
             <lineEnding>unix</lineEnding>
         </fileSet>
         <fileSet>
-            <directory>src/main/resources/docs</directory>
+            <directory>../../docs</directory>
             <outputDirectory>docs</outputDirectory>
             <lineEnding>unix</lineEnding>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/../../libs/utils/utils-sm-tls/lib</directory>
+            <outputDirectory>libs</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/../../core/consensus/consensus-raft/lib</directory>
+            <outputDirectory>libs</outputDirectory>
         </fileSet>
     </fileSets>
     <dependencySets>
@@ -46,18 +54,6 @@
         <dependencySet>
             <unpack>false</unpack>
             <useProjectArtifact>true</useProjectArtifact>
-            <outputDirectory>manager</outputDirectory>
-            <includes>
-                <include>com.jd.blockchain:manager-booter</include>
-                <include>com.jd.blockchain:manager-model</include>
-                <include>com.jd.blockchain:manager-service</include>
-                <include>com.jd.blockchain:manager-web</include>
-                <include>com.jd.blockchain:ump-explorer</include>
-            </includes>
-        </dependencySet>
-        <dependencySet>
-            <unpack>false</unpack>
-            <useProjectArtifact>true</useProjectArtifact>
             <outputDirectory>libs</outputDirectory>
             <excludes>
             	<exclude>com.jd.blockchain:ledger-core</exclude>
@@ -70,11 +66,6 @@
             	<exclude>com.jd.blockchain:runtime-modular-booter</exclude>
             	<exclude>com.jd.blockchain:peer</exclude>
             	<exclude>com.jd.blockchain:deployment-peer</exclude>
-                <exclude>com.jd.blockchain:manager-booter</exclude>
-                <exclude>com.jd.blockchain:manager-model</exclude>
-                <exclude>com.jd.blockchain:manager-service</exclude>
-                <exclude>com.jd.blockchain:manager-web</exclude>
-                <exclude>com.jd.blockchain:ump-explorer</exclude>
             </excludes>
         </dependencySet>
 
